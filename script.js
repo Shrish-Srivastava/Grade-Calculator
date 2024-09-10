@@ -47,7 +47,7 @@ const calculate = () => {
             document.querySelector(
                 "#showdata"
             ).innerHTML =
-                ` Out of 400 your total is  ${totalgrades} 
+                ` Total marks is  ${totalgrades} 
           and percentage is ${percentage}%. <br> 
           Your grade is ${grades}. You are Fail. `;
         }
