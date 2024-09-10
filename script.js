@@ -40,7 +40,7 @@ const calculate = () => {
             document.querySelector(
                 "#showdata"
             ).innerHTML =
-                ` Total is  ${totalgrades} 
+                ` Total marks is  ${totalgrades} 
           and percentage is ${percentage}%. <br> 
           Your grade is ${grades}. You are Pass. `;
         } else {
