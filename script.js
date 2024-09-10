@@ -3,7 +3,7 @@ const calculate = () => {
 
     // Getting input from user into height variable.
     let chemistry = document.querySelector("#chemistry").value;
-    let hindi = document.querySelector("#hindi").value;
+    let hindi = document.querySelector("#biology").value;
     let maths = document.querySelector("#maths").value;
     let phy = document.querySelector("#phy").value;
     let grades = "";
@@ -40,14 +40,14 @@ const calculate = () => {
             document.querySelector(
                 "#showdata"
             ).innerHTML =
-                ` Total marks is  ${totalgrades} 
+                `  Your total marks is  ${totalgrades} 
           and percentage is ${percentage}%. <br> 
           Your grade is ${grades}. You are Pass. `;
         } else {
             document.querySelector(
                 "#showdata"
             ).innerHTML =
-                ` Total marks is  ${totalgrades} 
+                ` Your total marks is  ${totalgrades} 
           and percentage is ${percentage}%. <br> 
           Your grade is ${grades}. You are Fail. `;
         }
