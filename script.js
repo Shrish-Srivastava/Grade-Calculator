@@ -3,7 +3,7 @@ const calculate = () => {
 
     // Getting input from user into height variable.
     let chemistry = document.querySelector("#chemistry").value;
-    let hindi = document.querySelector("#biology").value;
+    let biology = document.querySelector("#biology").value;
     let maths = document.querySelector("#maths").value;
     let phy = document.querySelector("#phy").value;
     let grades = "";
@@ -11,7 +11,7 @@ const calculate = () => {
     // Input is string so typecasting is necessary. */
     let totalgrades =
         parseFloat(chemistry) +
-        parseFloat(hindi) +
+        parseFloat(biology) +
         parseFloat(maths) +
         parseFloat(phy);
 
@@ -29,7 +29,7 @@ const calculate = () => {
     }
     // Checking the values are empty if empty than
     // show please fill them
-    if (chemistry == "" || hindi == ""
+    if (chemistry == "" || biology == ""
         || maths == "" || phy == "") {
         document.querySelector("#showdata").innerHTML
             = "Please enter all the fields";
